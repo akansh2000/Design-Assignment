@@ -1,3 +1,6 @@
+import logo from './images/logo.png';
+import Home from './Home';
+
 const Nav=()=>
 {
     return(
