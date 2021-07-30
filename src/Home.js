@@ -28,10 +28,10 @@ const Home=()=>{
                            </div>
                            <div className='mt-5 p-auto col-md-6 pt-5 pt-lg-0 order-2 order-lg-1 type'>
                                <p className='text-muted mt-4'>Integrations</p>
-                               <img src={amazon} width='90' height='40' className='mt-4 p-2 item'/>
-                               <img src={northern} width='110' height='85' className='mt-0 northern item'/>
-                               <img src={google} width='80' height='70' className='mt-1 p-2 item'/>
-                               <img src={skrill} width='60' height='30' className='mt-4 p-2 item'/>
+                               <img src={amazon} width='80' height='40' className='mt-4 p-2 item'/>
+                               <img src={northern} width='70' height='60' className='mt-0 northern item'/>
+                               <img src={google} width='80' height='70' className='google p-2 item'/>
+                               <img src={skrill} width='60' height='30' className='skrill p-2 item'/>
                            </div>
                             </div>
                             

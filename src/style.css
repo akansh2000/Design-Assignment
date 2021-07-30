@@ -64,11 +64,19 @@
 
 .northern {
   padding-top: 2.5rem !important;
-  margin-top: -1rem !important;
+  margin-top: -0.6rem !important;
+}
+
+.google {
+  margin-top: 0.5rem !important;
+}
+.skrill {
+  margin-top: 1.65rem !important;
 }
 
 .item {
-  padding: 20px;
+  /* padding: 20px; */
+  margin-left: 5px;
 }
 
 p {
