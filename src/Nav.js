@@ -1,8 +1,14 @@
 import logo from './images/logo.png';
 import Home from './Home';
+import { useState } from 'react';
+import {TiTimes } from "react-icons/ti";
+import { TiThMenu } from "react-icons/ti";
 
 const Nav=()=>
 {
+
+  const [toggle,setToggle]=useState(true)
+
     return(
         <>
     <div className='container-fluid nav_bg'>
@@ -14,8 +20,13 @@ const Nav=()=>
     <a className="navbar-brand" href="#">
     <img src={logo} alt="" width="65" height="34"/>
     </a>
-    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span className="navbar-toggler-icon"></span>
+    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" onClick={()=>{setToggle(!toggle)}}>
+     {toggle===true? 
+     (< TiThMenu className='toggle' />)
+      :
+     (<TiTimes className='toggle' />)
+     }
+      {/* <span className="navbar-toggler-icon">&times;</span> */}
     </button>
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">

@@ -5,7 +5,7 @@
 }
 
 .tab {
-  font-size: 18px !important;
+  font-size: 19px !important;
   padding: 15px !important;
 }
 
@@ -19,14 +19,14 @@
   font-size: 18px !important;
   width: 12rem !important;
   font-weight: 500 !important;
-  border: 2px solid #3498db !important;
+  border: 2px solid #2a79ad !important;
   transition: 0.5s;
-  color: #3498db;
+  color: #2a79ad !important;
 }
 
 .access:hover {
-  background-color: #3498db;
-  color: #fff;
+  background-color: #2a79ad !important;
+  color: #fff !important;
 }
 
 .main {
@@ -69,9 +69,11 @@
 
 .google {
   margin-top: 0.5rem !important;
+  margin-left: 0px !important;
 }
 .skrill {
   margin-top: 1.65rem !important;
+  margin-left: -10px !important;
 }
 
 .item {
@@ -163,4 +165,23 @@ p {
 
 .navbar-brand:hover {
   animation: rotation 3s infinite linear;
+}
+
+.navbar-toggler {
+  background-color: rgb(104, 94, 94);
+  color: white !important;
+  font-size: 25px !important;
+  width: 50px !important;
+  padding-left: 10px !important;
+  border-radius: 20% !important;
+  transition: 0.3s;
+}
+
+.navbar-toggler:hover {
+  box-shadow: 0px 0px 20px 3px rgba(152, 151, 161, 0.685);
+}
+
+.navbar-expand-lg {
+  border: 1px solid #cdadad !important;
+  background-color: #d5eafeb0 !important;
 }
