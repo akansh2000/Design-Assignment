@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Design-Assignment/static/css/main.b4dc9404.chunk.css",
-    "main.js": "/Design-Assignment/static/js/main.3ad87668.chunk.js",
-    "main.js.map": "/Design-Assignment/static/js/main.3ad87668.chunk.js.map",
+    "main.css": "/Design-Assignment/static/css/main.44c244c0.chunk.css",
+    "main.js": "/Design-Assignment/static/js/main.5c2c04d4.chunk.js",
+    "main.js.map": "/Design-Assignment/static/js/main.5c2c04d4.chunk.js.map",
     "runtime-main.js": "/Design-Assignment/static/js/runtime-main.f762e50f.js",
     "runtime-main.js.map": "/Design-Assignment/static/js/runtime-main.f762e50f.js.map",
     "static/css/2.4be38407.chunk.css": "/Design-Assignment/static/css/2.4be38407.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.11daa378.chunk.js.map": "/Design-Assignment/static/js/3.11daa378.chunk.js.map",
     "index.html": "/Design-Assignment/index.html",
     "static/css/2.4be38407.chunk.css.map": "/Design-Assignment/static/css/2.4be38407.chunk.css.map",
-    "static/css/main.b4dc9404.chunk.css.map": "/Design-Assignment/static/css/main.b4dc9404.chunk.css.map",
+    "static/css/main.44c244c0.chunk.css.map": "/Design-Assignment/static/css/main.44c244c0.chunk.css.map",
     "static/js/2.cb37b650.chunk.js.LICENSE.txt": "/Design-Assignment/static/js/2.cb37b650.chunk.js.LICENSE.txt",
     "static/media/amazon.91ee6e7a.png": "/Design-Assignment/static/media/amazon.91ee6e7a.png",
     "static/media/animate.4c26a8ae.jpg": "/Design-Assignment/static/media/animate.4c26a8ae.jpg",
@@ -25,7 +25,7 @@
     "static/js/runtime-main.f762e50f.js",
     "static/css/2.4be38407.chunk.css",
     "static/js/2.cb37b650.chunk.js",
-    "static/css/main.b4dc9404.chunk.css",
-    "static/js/main.3ad87668.chunk.js"
+    "static/css/main.44c244c0.chunk.css",
+    "static/js/main.5c2c04d4.chunk.js"
   ]
 }
